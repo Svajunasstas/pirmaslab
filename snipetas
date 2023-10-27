@@ -1,0 +1,7 @@
+{
+	"studentas": {
+	  "prefix": ["stud"],
+	  "body": ["<p>Svajunas Stasiukaitis, EAf-22 </p>"],
+	  "description": "vardas, pavarde, grupe"
+	}
+}
