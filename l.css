@@ -1,0 +1,371 @@
+body{
+    background-color: white;
+}
+@media only screen and (max-width: 600px) and (orientation: landscape){
+    .viskas{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) and (orientation: portrait){
+    .viskas{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 601px) {
+    .viskas{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .viskas{
+        width: 100%;
+    }
+}
+@media (max-width: 992px){
+    .viskas{
+        width: 100%;
+    }
+}
+/*kaire puse*/
+.navigacija{
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(25, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+}
+.remelis{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(42, 42, 42);
+    margin: 10px;
+}
+.vardas_pavarde{
+    width: fit-content;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+}
+.soc_media{
+    width: 200px;
+    height:35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+}
+.media_foto{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin:0 5px;
+}
+.navi{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.navi ul li{    
+    padding: 20px 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navi ul li a{
+    
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.copyright span{
+    color: rgb(28, 135, 236);
+}
+/*Pagrindinis*/
+main{
+    width: calc(100vw - 300px);
+    height: 100vh;
+    margin-left: 300px;
+    background-image: url(images/pagrindinefoto.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    width: fit-content;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    margin: 300px 0 0 300px;
+}
+main p{
+    width: fit-content;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    margin:10px 0 0 300px;
+}
+/*Apie skiltis*/
+.apie{
+    width: calc(100vw - 300px);
+    height: 100vh;
+    margin-left: 300px;
+    padding: 40px;
+    }
+.apie h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.apie h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    font-family: "Raleway", sans-serif;
+}
+.apie p{
+
+    color: rgb(39, 40, 41);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    line-height: 24px;
+}
+.apie .info{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.apie .info .didele-foto{
+    width: 500px;
+    height: 350px;
+    background-image: url(images/minifoto.jpg);
+    background-size: cover;
+}
+.apie .info .tekstas{
+    padding: 0 0 0 20px;
+    width: 100%;
+    height: 300px;
+}
+.apie .info .tekstas p{
+    margin-top: 15px;
+    color: rgb(39, 40, 41);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    line-height: 24px;
+}
+.apie .info .tekstas p span{
+    font-weight: 600;
+}
+.apie .info .tekstas .faktai{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 40px 40px 40px 40px;
+    column-gap: 200px;
+    height: 50%;
+}
+/*Faktai*/
+.facts{
+    width: calc(100vw - 300px);
+    height: 70vh;
+    margin-left: 300px;
+    padding: 40px;
+}
+.facts h4{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #173b6c;
+}
+.facts p{
+    color: rgb(39, 40, 41);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    line-height: 24px;
+}
+.facts .stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.facts .stats2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.facts .stats p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #122f57;
+}
+.facts .stats .emojy1{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/smil.png);
+    background-size: cover;
+    
+}
+.facts .stats .emojy2{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/notebook.png);
+    background-size: cover;
+    
+}
+.facts .stats .emojy3{
+    width: 80px;
+    height: 60px;
+    background-image: url(images/headphones.png);
+    background-size: cover;
+    
+}
+.facts .stats .emojy4{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/peolpe.png);
+    background-size: cover;
+    
+}
+.facts .stats p span1{
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #050d18;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";}
+.facts .stats p span2{
+    font-weight: bold;
+}
+
+.skills{
+    width: calc(100vw - 300px);
+    height: 60vh;
+    margin-left: 300px;
+    padding: 40px;
+    background-color: #e7f1fd;
+}
+.skills h5{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #173b6c;
+}
+.skills p{
+    color: rgb(39, 40, 41);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    line-height: 24px;
+}
+
+
+.skills .programs{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 30px;
+    row-gap: 10px;
+    height: 50%;
+}
+.skills .programs .program-bar{
+    display: flex;
+    flex-direction: column;
+}
+.skills .programs .program-bar .tekstas{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.bar1{
+    width: 100%;
+    height: 10px;
+    border: none;
+    background-color: rgb(95, 172, 255);
+    float: left;
+}
+.bar2{
+    width: 80%;
+    height: 10px;
+    border: none;
+    background-color: rgb(95, 172, 255);
+    float: left;
+}
+.bar3{
+    width: 90%;
+    height: 10px;
+    border: none;
+    background-color: rgb(95, 172, 255);
+    float: left;
+}
+.bar4{
+    width: 90%;
+    height: 10px;
+    border: none;
+    background-color: rgb(95, 172, 255);
+    float: left;
+}
+.bar5{
+    width: 75%;
+    height: 10px;
+    border: none;
+    background-color: rgb(95, 172, 255);
+    float: left;
+}
+.bar6{
+    width: 50%;
+    height: 10px;
+    border: none;
+    background-color: rgb(95, 172, 255);
+    float: left;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    border: none;
+    background-color:  #cbe3ff;
+}
+.skills .programs .program-bar .tekstas p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #2e3f57;
+}
